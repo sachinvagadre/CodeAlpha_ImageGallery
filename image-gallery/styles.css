@@ -1,0 +1,38 @@
+.intro { 
+  text-align: center; 
+  font-family: Arial;
+  background-color: rgb(5, 5, 70);
+}
+
+h2 { 
+  font-size: 36px;
+  color: rgb(187, 139, 231);
+}
+
+p { 
+  font-size: 14pt;
+  color: rgb(231, 227, 227);
+}
+
+#image-gallery { 
+  width: 600px; 
+  margin: 0 auto;
+}
+
+#current-image { 
+  width: 100%;
+} 
+
+#image-thumbs { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.thumb { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  cursor: pointer;
+}
